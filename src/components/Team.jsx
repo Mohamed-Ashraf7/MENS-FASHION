@@ -20,7 +20,7 @@ const Team = () => {
         <h3 className="text-4xl font-bold py-2 text-center capitalize text-white">
           {title}
         </h3>
-        <div className="grid lg:grid-cols-3 px-20 gap-x-5  grid-cols-1 justify-center items-center  mt-12">
+        <div className="grid lg:grid-cols-3 md:px-20 px-7 gap-x-5  grid-cols-1 justify-center items-center mt-12">
           {cards.map((item, idx) => {
             return (
               <div
@@ -30,7 +30,7 @@ const Team = () => {
                 <LazyLoadImage
                   src={item.img}
                   alt={`Team_Member_${idx}`}
-                  className="self-center bg-black py-1 px-2 w-[180px] h-[180px] -mt-28 bg-center bg-cover rounded-[12%]"
+                  className="self-center bg-black py-1 px-2 w-[170px] h-[170px] -mt-28 bg-center bg-cover rounded-[8%]"
                 />
                 <div className=" my-4">
                   <p className="text-2xl font-bold leading-snug text-white">

@@ -8,7 +8,7 @@ const About = () => {
   const { spanOne, spanTwo, spanThree, bottomTitle, spans, check } = aboutData;
   return (
     <section className="md:px-10 p-5" id="ABOUT">
-      <div className="mx-auto grid lg:grid-cols-2 sm:grid-cols-1 gap-7 justify-center items-center ">
+      <div className="mx-auto grid lg:grid-cols-2 sm:grid-cols-1 md:gap-7 gap-3 justify-center items-center ">
         <div>
           <LazyLoadImage
             src={about}

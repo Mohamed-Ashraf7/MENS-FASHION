@@ -7,7 +7,7 @@ const News = () => {
   const { mainImg, leftSide, rightSide } = NewsData;
   return (
     <section className="px-5 ">
-      <div className="container grid grid-cols-12 mx-auto gap-y-6 md:gap-10">
+      <div className="container grid grid-cols-12 mx-auto gap-y-4 md:gap-10">
         <div className="flex flex-col justify-between shadow-md shadow-gray-500 col-span-12 p-3 space-y-8 md:space-y-16 md:col-span-3">
           <div className="flex flex-col space-y-8 md:space-y-12 ">
             {leftSide.map((item, idx) => (

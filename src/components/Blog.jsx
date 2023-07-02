@@ -35,7 +35,7 @@ const Blog = () => {
             </motion.div>
           ))}
         </div>
-        <div className="flex border-b-2 border-blue-gray-900 p-6 relative drop-shadow-md shadow-gray-100  flex-col mt-10 items-start w-full md:max-w-3xl">
+        <div className="flex border-b-2 border-blue-gray-900 p-6 relative drop-shadow-md shadow-gray-100  flex-col mt-8 items-start w-full md:max-w-3xl">
           <BlogHead data={post} />
         </div>
         <motion.div
@@ -51,14 +51,16 @@ const Blog = () => {
         </div>
         <div className="flex border-b-2 border-blue-gray-900 p-6 drop-shadow-md shadow-gray-100  flex-col  items-end w-full">
           <h5 className="text-lg">{subTitle}</h5>
-          <h2 className="relative text-6xl">
+          <h2 className="relative md:text-6xl text-4xl">
             Take a Look For a Modern One
             <span
               className="block absolute z-[-1] -inset-0 -skew-y-[4deg]  bg-blue-gray-900"
               aria-hidden="true"
             ></span>
           </h2>
-          <p className=" text-start mt-5 text-xl md:max-w-3xl">{des}</p>
+          <p className=" text-start mt-5 md:text-xl text-sm md:max-w-3xl">
+            {des}
+          </p>
         </div>
         <motion.div
           variants={fadeIn("down")}

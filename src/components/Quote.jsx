@@ -13,9 +13,9 @@ const Quote = () => {
         }}
       >
         <div className="container flex flex-col flex-wrap content-center justify-center p-4 py-24 mx-auto md:p-14">
-          <h1 className="text-2xl md:text-6xl tracking-[5px] text-white font-semibold font-secondery text-center">
+          <h2 className="text-3xl md:text-6xl tracking-[5px] text-white font-semibold font-secondery text-center">
             {title}
-          </h1>
+          </h2>
           <p className="pt-2 pb-8 text-xl  text-gray-400 font-primary text-center ">
             {parag}
           </p>

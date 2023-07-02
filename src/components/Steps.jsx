@@ -7,7 +7,7 @@ const Steps = () => {
     StepsData;
   return (
     <section className="container mx-auto lg:my-2 my-2" id="COMMUNITY">
-      <div className="container mx-auto py-10 md:px-10">
+      <div className="container mx-auto py-8 md:px-10">
         <div className="flex flex-row">
           <div className="hidden md:flex flex-col items-center">
             <div className="w-32 border border-gray-300 rounded mr-4 uppercase flex flex-col items-center justify-center">
