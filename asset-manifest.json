@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/mens-fashion/static/css/main.109978be.css",
-    "main.js": "/mens-fashion/static/js/main.f3eaff98.js",
-    "static/js/411.a32b2d16.chunk.js": "/mens-fashion/static/js/411.a32b2d16.chunk.js",
-    "static/js/798.b24fdce7.chunk.js": "/mens-fashion/static/js/798.b24fdce7.chunk.js",
+    "main.css": "/mens-fashion/static/css/main.6004ac5d.css",
+    "main.js": "/mens-fashion/static/js/main.e4d80d2f.js",
+    "static/js/411.70e24f2b.chunk.js": "/mens-fashion/static/js/411.70e24f2b.chunk.js",
+    "static/js/798.5523db9b.chunk.js": "/mens-fashion/static/js/798.5523db9b.chunk.js",
     "static/js/516.c8ee506e.chunk.js": "/mens-fashion/static/js/516.c8ee506e.chunk.js",
-    "static/js/401.c9adf371.chunk.js": "/mens-fashion/static/js/401.c9adf371.chunk.js",
-    "static/js/719.f02f0a5c.chunk.js": "/mens-fashion/static/js/719.f02f0a5c.chunk.js",
+    "static/js/401.93f249f2.chunk.js": "/mens-fashion/static/js/401.93f249f2.chunk.js",
+    "static/js/719.ce80c13a.chunk.js": "/mens-fashion/static/js/719.ce80c13a.chunk.js",
     "static/media/classic.jpg": "/mens-fashion/static/media/classic.07677d219954dd33f28e.jpg",
     "static/media/media-1.jpg": "/mens-fashion/static/media/media-1.e99e6685dc4d09d78ef3.jpg",
     "static/media/hero.jpg": "/mens-fashion/static/media/hero.5840c173edd0341b3bae.jpg",
@@ -30,16 +30,16 @@
     "static/media/G_logo.jpg": "/mens-fashion/static/media/G_logo.f5b27bcc424279a5bc35.jpg",
     "static/media/team-3.jpg": "/mens-fashion/static/media/team-3.2978137ca1580918a38e.jpg",
     "index.html": "/mens-fashion/index.html",
-    "main.109978be.css.map": "/mens-fashion/static/css/main.109978be.css.map",
-    "main.f3eaff98.js.map": "/mens-fashion/static/js/main.f3eaff98.js.map",
-    "411.a32b2d16.chunk.js.map": "/mens-fashion/static/js/411.a32b2d16.chunk.js.map",
-    "798.b24fdce7.chunk.js.map": "/mens-fashion/static/js/798.b24fdce7.chunk.js.map",
+    "main.6004ac5d.css.map": "/mens-fashion/static/css/main.6004ac5d.css.map",
+    "main.e4d80d2f.js.map": "/mens-fashion/static/js/main.e4d80d2f.js.map",
+    "411.70e24f2b.chunk.js.map": "/mens-fashion/static/js/411.70e24f2b.chunk.js.map",
+    "798.5523db9b.chunk.js.map": "/mens-fashion/static/js/798.5523db9b.chunk.js.map",
     "516.c8ee506e.chunk.js.map": "/mens-fashion/static/js/516.c8ee506e.chunk.js.map",
-    "401.c9adf371.chunk.js.map": "/mens-fashion/static/js/401.c9adf371.chunk.js.map",
-    "719.f02f0a5c.chunk.js.map": "/mens-fashion/static/js/719.f02f0a5c.chunk.js.map"
+    "401.93f249f2.chunk.js.map": "/mens-fashion/static/js/401.93f249f2.chunk.js.map",
+    "719.ce80c13a.chunk.js.map": "/mens-fashion/static/js/719.ce80c13a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.109978be.css",
-    "static/js/main.f3eaff98.js"
+    "static/css/main.6004ac5d.css",
+    "static/js/main.e4d80d2f.js"
   ]
 }
