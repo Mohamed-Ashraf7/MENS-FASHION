@@ -19,7 +19,7 @@ const Home = () => {
           <LazyLoadImage
             src={image}
             alt="hero_image"
-            className="md:mt-4 h-[160px] w-[190px] object-contain  rounded-sm shadow-2xl"
+            className="md:mt-5 h-[160px] w-[190px] object-contain  rounded-sm shadow-2xl"
           />
           <h2 className="md:p-6 p-2 md:text-4xl text-2xl text-center border-b-4">
             {subTitle}
@@ -32,7 +32,7 @@ const Home = () => {
           {" "}
           <h1 className="md:text-8xl text-[50px]">{title}</h1>
         </div>
-        <div className="mb-3">
+        <div className="mb-5 md:mb-5">
           <Button btnText={btnText} btnIcon={btnIcon} />
         </div>
         <Socials />
