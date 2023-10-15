@@ -4,12 +4,12 @@ import Description from "./components/Description";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Quote from "./components/Quote";
-import Gallery from "./components/Gallery";
-import Team from "./components/Team";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import BackTOP from "./components/BackTOP";
 import Loader from "./components/Loader.jsx";
+const Gallery = React.lazy(() => import("./components/Gallery"));
+const Team = React.lazy(() => import("./components/Team"));
 const About = React.lazy(() => import("./components/About"));
 const Blog = React.lazy(() => import("./components/Blog"));
 const MemberShip = React.lazy(() => import("./components/MemberShip"));
@@ -33,19 +33,16 @@ const App = () => {
           <Header />
           <Home />
           <Description />
+
           <Suspense fallback="...">
             <About />
-          </Suspense>
-          <CommunitySlider />
-          <Suspense fallback="...">
+            <CommunitySlider />
             <Blog />
             <Steps />
             <News />
-          </Suspense>
-          <Quote />
-          <Gallery />
-          <Team />
-          <Suspense fallback="...">
+            <Quote />
+            <Gallery />
+            <Team />
             <MemberShip />
           </Suspense>
           <Contact />
