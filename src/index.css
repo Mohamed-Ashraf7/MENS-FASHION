@@ -15,8 +15,23 @@
     @apply text-white  bg-gray-900;
   }
 }
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+html,
 body {
   scroll-behavior: smooth;
+}
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-track {
+  background-color: #efefef;
 }
 .button {
   width: fit-content;
@@ -76,8 +91,8 @@ body {
   top: 50%;
   left: 50%;
   z-index: 10;
-  width: 200px;
-  height: 150px;
+  width: 160px;
+  height: 100px;
   margin-left: -80px;
   margin-top: -50px;
   border-radius: 5px;

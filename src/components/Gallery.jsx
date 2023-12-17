@@ -7,9 +7,9 @@ const Gallery = () => {
   const { heart, Comment, gallery, title } = galleryData;
   return (
     <section  className="md:p-8" id="GALLERY">
-      <h2 className="text-2xl md:text-6xl font-primary border-t-2 py-4 border-t-black text-center md:text-start mb-2">
+      <h4 className="text-2xl md:text-6xl font-primary border-t-2 py-4 border-t-black text-center md:text-start mb-2">
         {title}
-      </h2>
+      </h4>
       <div className="container mx-auto grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6">
         {gallery.map((item, idx) => {
           return (

@@ -5,13 +5,13 @@ const Footer = () => {
   const { ul_one, ul_two, ul_three, logo } = footerData;
   return (
     <footer className="px-4 divide-y bg-black mt-5">
-      <div className="container grid md:grid-cols-2 lg:grid-cols-4 items-center justify-center py-10 mx-auto ">
+      <div className="container grid md:grid-cols-2 lg:grid-cols-4 items-center justify-center py-8 mx-auto">
         <div className="flex flex-col justify-start lg:items-start items-center ">
-          <p className="text-2xl mb-4 font-semibold text-white">
+          <p className="text-2xl mb-2 font-semibold text-white font-secondery">
             Mens Style Fashion
           </p>
-          <img src={logo} alt="footer_logo" className=" w-[150px] h-[120px]" />
-        </div>
+          <img src={logo} alt="footer_logo" className="w-auto h-[100px] object-cover rounded-sm" />       
+          </div>
         <div className="hidden lg:grid col-span-2 grid-cols-3 text-sm px-5">
           <div>
             <h3 className="tracking-wide uppercase text-white text-lg">
@@ -48,11 +48,11 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="space-y-3">
-          <div className="uppercase text-white text-center pb-5 text-3xl">
+        <div className="space-y-1">
+          <div className="font-secondery  text-white text-center pb-2 text-3xl">
             Social media
           </div>
-          <div className="flex justify-center px-10 py-4 bg-white  rounded-sm">
+          <div className="flex justify-center px-5 py-4 bg-white rounded-sm">
             <Socials />
           </div>
         </div>

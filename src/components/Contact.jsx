@@ -19,7 +19,7 @@ const Contact = () => {
                 className="mb-12 lg:mb-0 text-center mx-auto flex flex-col items-center"
               >
                 <span className="text-3xl  text-black mb-6 ">{item.icon}</span>
-                <h6 className="font-primary text-2xl ">{item.text}</h6>
+                <p className="font-primary text-2xl ">{item.text}</p>
               </div>
             ))}
           </div>

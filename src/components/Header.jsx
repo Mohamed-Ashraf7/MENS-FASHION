@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
-// import header data
 import { headerData } from "../data";
 import { Link } from "react-scroll";
-// import components
 import Nav from "./branches/Nav";
 import NavMobile from "./branches/NavMobile";
 import Socials from "./branches/Socials";
@@ -15,7 +13,7 @@ const Header = () => {
   const handleMobileClick = () => {
     setNavMobile(false);
   };
-  //scrollevent
+  
   useEffect(() => {
     const handle = window.addEventListener("scroll", () => {
       window.scrollY > 50 ? setIsActive(true) : setIsActive(false);
@@ -32,7 +30,7 @@ const Header = () => {
           : "h-[140px] lg:h-[170px]  bg-white"
       }  fixed left-0 shadow-lg right-0 z-10 max-w-full w-full mx-auto transition-all duration-500`}
     >
-      <div className="flex justify-between items-center h-full px-[50px] ">
+      <div className="flex justify-between items-center h-full px-[50px]">
         <Link
           activeClass="none"
           to="HOME"

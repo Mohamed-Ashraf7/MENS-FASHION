@@ -10,8 +10,8 @@ const CommunitySlider = () => {
   const { title, testimonials } = community;
   return (
     <section className="mb-10 relative hidden md:block">
-      <div className="container mx-auto flex flex-col justify-between items-center lg:flex-row ">
-        <div className="p-5 hidden lg:block">
+      <div className="container mx-auto flex  justify-between items-center lg:flex-row ">
+        <div className="p-5 lg:block">
           <h2 className="button p-2 capitalize text-center shadow-md shadow-black text-[50px] relative mb-2 lg:mb-10">
             {title}
           </h2>
@@ -35,11 +35,11 @@ const CommunitySlider = () => {
                         alt={`testimonsal_img_${idx}`}
                       />
                     </div>
-                    <div className="absolute bottom-0 p-2 w-[80%] left-[50px] opacity-40 text-white text-center bg-black">
+                    <div className="absolute bottom-0 p-2 w-[80%] left-[50px]  text-black text-center bg-white">
                       <div className="flex items-center justify-center gap-x-[3px]">
                         <div className="text-[20px] font-bold">{name}</div>
                       </div>
-                      <div className="italic font-secondery text-lg font-light">
+                      <div className="italic text-base font-light">
                         {message}
                       </div>
                     </div>

@@ -57,7 +57,7 @@ const About = () => {
           variants={Item("itemB")}
           initial="hidden"
           whileInView={"show"}
-          className="md:text-7xl text-4xl"
+          className="md:text-7xl text-3xl"
         >
           {bottomTitle}
         </motion.h2>

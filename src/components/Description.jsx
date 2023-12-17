@@ -11,19 +11,18 @@ const Description = () => {
       variants={fadeIn("up")}
       initial="hidden"
       whileInView={"show"}
-      className="lg:p-24 p-10 bg-black text-white"
+      className="lg:p-24 py-10 px-5 bg-black text-white"
     >
-      <div className=" mx-auto flex flex-col justify-center items-center">
-        <p className=" text-xl md:text-2xl font-secondery ">{subTitle} </p>
-        <h1 className="text-3xl md:text-6xl text-center py-8 font-bold md:py-6 font-primary">
+      <div className="mx-auto flex flex-col justify-center items-center">
+        <p className="text-xl md:text-2xl font-secondery ">{subTitle} </p>
+        <h2 className="text-3xl md:text-6xl text-center py-8 font-bold md:py-6 font-primary">
           {Title}
-        </h1>
+        </h2>
         <div className="text-center">
           <span className="text-lg md:text-4xl">
             <span className="font-secondery">
-              {" "}
-              Looking good isn't self-importance : it's{" "}
-            </span>{" "}
+            Looking good isn't self-importance : it's
+            </span>
             <TypeAnimation
               sequence={[
                 "self-respect",
@@ -37,7 +36,7 @@ const Description = () => {
             />
           </span>
         </div>
-        <p className="w-fit p-3 mt-10 sm:text-2xl md:text-4xl font-secondery text-center bg-white text-black">
+        <p className="w-fit p-3 mt-10 text-3xl md:text-4xl font-secondery text-center bg-white text-black">
           {" "}
           Wanna be Perfect !
         </p>

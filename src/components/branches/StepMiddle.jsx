@@ -56,7 +56,7 @@ const StepMiddle = () => {
                     John Doe
                   </p>
                   <div className="flex space-x-1 text-sm text-skin-muted">
-                    <time datetime="2022-02-01">1 Feb, 2022</time>
+                    <time dateTime="2022-02-01">1 Feb, 2023</time>
                     <span aria-hidden="true">·</span>
                     <span>3 min read time</span>
                   </div>

@@ -1,27 +1,27 @@
-import g_logo from "./img/G_logo.jpg";
-import hero from "./img/hero.jpg";
-import about from "./img/about.jpg";
-import aboutOne from "./img/about-2.jpg";
-import aboutTwo from "./img/about-3.jpg";
+import g_logo from "./img/G_logo.webp";
+import hero from "./img/hero.webp";
+import about from "./img/about.webp";
+import aboutOne from "./img/about-2.webp";
+import aboutTwo from "./img/about-3.webp";
 import classic from "./img/classic.jpg";
-import blog_1 from "./img/blog-1.jpeg";
-import blog_2 from "./img/blog-2.jpeg";
-import blog_3 from "./img/blog-3.jpeg";
+import blog_1 from "./img/blog-1.webp";
+import blog_2 from "./img/blog-2.webp";
+import blog_3 from "./img/blog-3.webp";
 import blog_4 from "./img/blog-4.jpeg";
-import model_1 from "./img/model-1.jpeg";
-import model_2 from "./img/model-2.jpeg";
-import model_3 from "./img/model-3.jpeg";
-import darkWatch from "./img/dark-watch.jpg";
-import cardAvatar from "./img/media-5.jpg";
-import cardImg from "./img/watch-2.jpg";
-import stepOne from "./img/media-1.jpg";
-import stepTwo from "./img/media-3.jpg";
-import gallery2 from "./img/media-2.jpg";
-import gallery4 from "./img/media-4.jpg";
-import mainimg from "./img/classical.jpg";
-import team_1 from "./img/team-1.jpg";
-import team_3 from "./img/team-3.jpg";
-import team_4 from "./img/team-4.jpg";
+import model_1 from "./img/model-1.webp";
+import model_2 from "./img/model-2.webp";
+import model_3 from "./img/model-3.webp";
+import darkWatch from "./img/dark-watch.webp";
+import cardAvatar from "./img/media-5.webp";
+import cardImg from "./img/watch-2.webp";
+import stepOne from "./img/media-1.webp";
+import stepTwo from "./img/media-3.webp";
+import gallery2 from "./img/media-2.webp";
+import gallery4 from "./img/media-4.webp";
+import mainimg from "./img/classical.webp";
+import team_1 from "./img/team-1.webp";
+import team_3 from "./img/team-3.webp";
+import team_4 from "./img/team-4.webp";
 import PricingLogo from "./img/pricingLogo.png";
 import state1 from "./img/state1.png";
 import state2 from "./img/state2.png";
@@ -102,8 +102,8 @@ export const aboutData = {
   spanThree: "650 Views",
   bottomTitle: "How to Pose for Photos: The Professional Guide",
   spans: [
-    "Consectetur Elit",
-    "Animi Delectus",
+    "Exciting Elite",
+    "Animi looks",
     "Impedit Libero",
     "Exciting look",
   ],
@@ -157,15 +157,15 @@ export const Blogs = {
     title: "Make an Old Fashioned",
     des: "Lorem ipsum dolor sit amet, consectetur adipisicing elit Adipisci animi et eum ipsum iste obcaecati quaerat voluptate ,consectetur adipisicing elit Adipisci animi et eum ipsum iste obcaecati quaerat voluptate",
   },
-  sessionOne: [blog_1, blog_3, blog_2, blog_4],
+  sessionOne: [blog_1, blog_2, blog_4, blog_3],
   sessionTwo: [model_1, model_2, model_3],
   darkWatch: darkWatch,
 };
 export const statusData = {
   stData: [
     { number: "50+", title: "Client", image: state1 },
-    { number: "89+", title: "followers on social media", image: state2 },
-    { number: "3", title: "published articls", image: state3 },
+    { number: "89+", title: "followers", image: state2 },
+    { number: "60+", title: "published articls", image: state3 },
     { number: "8", title: "ted Talks", image: state4 },
     { number: "22", title: "years of experience", image: state5 },
     { number: "10", title: "Workshops", image: state6 },
@@ -345,7 +345,7 @@ export const Membership = {
 export const contactData = {
   image: mainimg,
   info: [
-    { icon: <AiOutlineGlobal />, text: "Unites States" },
+    { icon: <AiOutlineGlobal />, text: "United States" },
     { icon: <IoLocation />, text: "New York, 94126" },
     { icon: <GrPhone />, text: "+ 01 234 567 89" },
     { icon: <FcCallback />, text: "Tax ID: 273 384" },

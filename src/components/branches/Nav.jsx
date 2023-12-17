@@ -12,14 +12,10 @@ const Nav = () => {
               key={index}
               className="text-xl hover:hover-dark py-3 px-2 rounded-md  font-secondery cursor-pointer"
             >
-              {" "}
               <Link
-                activeClass="active"
-                to={item.name}
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={800}
+                activeClass="active" to={item.name}
+                spy={true} smooth={true}
+                offset={-100}  duration={800}
               >
                 {item.name}
               </Link>

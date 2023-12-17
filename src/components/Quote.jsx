@@ -1,21 +1,17 @@
 import React from "react";
 import { quoteData } from "../data";
-
 import SwipperQuote from "./branches/SwipperQuote";
 const Quote = () => {
   const { image, title, parag, btnText, summery, quots } = quoteData;
   return (
-    <section className=" flex flex-col lg:my-8 mt-2">
-      <div
-        className="w-full bg-cover bg-center"
-        style={{
-          backgroundImage: `url(${image})`,
-        }}
+    <section className="flex flex-col lg:my-8 mt-2">
+      <div className="w-full bg-cover bg-center"
+        style={{backgroundImage: `url(${image})`,}}
       >
-        <div className="container flex flex-col flex-wrap content-center justify-center p-4 py-24 mx-auto md:p-14">
-          <h2 className="text-3xl md:text-6xl tracking-[5px] text-white font-semibold font-secondery text-center">
+        <div className="container flex flex-col flex-wrap content-center justify-center p-4 py-14 mx-auto md:p-14">
+          <h4 className="text-3xl md:text-6xl tracking-[5px] text-white font-semibold font-secondery text-center">
             {title}
-          </h2>
+          </h4>
           <p className="pt-2 pb-8 text-xl  text-gray-400 font-primary text-center ">
             {parag}
           </p>
@@ -48,7 +44,7 @@ const Quote = () => {
           })}
         </div>
       </div>
-      <div className="container mx-auto">
+      <div className="container px-2 mx-auto">
         <SwipperQuote data={quots} />
       </div>
     </section>

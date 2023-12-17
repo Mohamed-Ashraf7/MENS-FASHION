@@ -12,7 +12,7 @@ const Blog = () => {
   return (
     <section id="BLOG" className="bg-black py-4 text-white">
       <div className="container mx-auto ">
-        <div className="grid md:grid-cols-3 gap-x-3 grid-cols-1 mt-2 md:mt-10 overflow-hidden">
+        <div className="grid md:grid-cols-3 gap-4 mt-2 md:mt-10 overflow-hidden">
           {bref.map((item, idx) => (
             <motion.div
               initial={{
@@ -21,21 +21,21 @@ const Blog = () => {
                 backgroundColor: "#000",
               }}
               whileHover={{
-                scale: 1.1,
+                scale: 1.02,
                 borderRadius: "10%",
                 backgroundColor: "#0c0c0c",
               }}
               transition={{ duration: 0.5 }}
               key={idx}
-              className=" flex flex-col gap-y-9  p-5 items-center justify-center"
+              className="flex flex-col gap-y-6  md:p-5 items-center justify-center"
             >
               <div className="text-5xl">{item.icon}</div>
-              <h2 className="text-3xl text-center">{item.title}</h2>
+              <h3 className="text-3xl text-center">{item.title}</h3>
               <p className="text-center ">{item.des}</p>
             </motion.div>
           ))}
         </div>
-        <div className="flex border-b-2 border-blue-gray-900 p-6 relative drop-shadow-md shadow-gray-100  flex-col mt-8 items-start w-full md:max-w-3xl">
+        <div className="flex border-b-2 border-blue-gray-900 p-2 md:p-6 relative flex-col mt-8 items-start w-full md:max-w-3xl">
           <BlogHead data={post} />
         </div>
         <motion.div
@@ -46,18 +46,18 @@ const Blog = () => {
         >
           <Post session={sessionOne} />
         </motion.div>
-        <div className="py-5 mt-2 shadow-sm shadow-blue-gray-700">
+        <div className="py-5 mt-2">
           <Status />
         </div>
         <div className="flex border-b-2 border-blue-gray-900 p-6 drop-shadow-md shadow-gray-100  flex-col  items-end w-full">
-          <h5 className="text-lg">{subTitle}</h5>
-          <h2 className="relative md:text-6xl text-4xl">
+          <p className="text-lg">{subTitle}</p>
+          <p className="relative md:text-6xl text-4xl">
             Take a Look For a Modern One
             <span
-              className="block absolute z-[-1] -inset-0 -skew-y-[4deg]  bg-blue-gray-900"
+              className="block absolute z-[-1] -inset-0 -skew-y-[4deg]  bg-sky-950"
               aria-hidden="true"
             ></span>
-          </h2>
+          </p>
           <p className=" text-start mt-5 md:text-xl text-sm md:max-w-3xl">
             {des}
           </p>
@@ -76,7 +76,7 @@ const Blog = () => {
           whileInView={"show"}
           src={darkWatch}
           alt="dark_watch"
-          className="object-cover h-full w-[90%] mx-auto mt-5 col-span-3 "
+          className="object-cover h-full w-[90%] mx-auto mt-5 col-span-3"
         />
       </div>
     </section>

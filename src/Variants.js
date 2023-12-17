@@ -13,7 +13,7 @@ export const fadeIn = (direction) => {
       transition: {
         type: "tween",
         duration: 1.4,
-        ease: [0.25, 0.25, 0.25, 0.75],
+        ease: [0.25, 0.25, 0.25, 0.65],
       },
     },
   };
@@ -25,7 +25,7 @@ export const Item = (Type) => {
       show: {
         scale: 1,
         transition: {
-          type: "tween",
+          type: "spring",
           duration: 0.9,
         },
       },
@@ -37,8 +37,7 @@ export const Item = (Type) => {
         scale: 1,
         transition: {
           type: "tween",
-          duration: 1.4,
-          ease: [0.25, 0.25, 0.25, 0.75],
+          duration: 1,
         },
       },
     };

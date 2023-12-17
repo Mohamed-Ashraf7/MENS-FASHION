@@ -5,7 +5,6 @@ import "swiper/css/navigation";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 const SwipperQuote = ({ data }) => {
   return (
-    <>
       <Swiper>
         {data.map((item, idx) => {
           return (
@@ -15,7 +14,7 @@ const SwipperQuote = ({ data }) => {
                   {item.medal}
                 </span>
 
-                <p className="py-2 text-2xl font-semibold text-center sm:font-bold sm:text-3xl md:text-4xl ">
+                <p className="py-2 text-2xl font-semibold text-center sm:font-bold sm:text-3xl md:text-4xl">
                   " {item.quote} "
                 </p>
                 <div className="flex justify-center space-x-3">
@@ -26,7 +25,7 @@ const SwipperQuote = ({ data }) => {
                   />
                   <div>
                     <p className="font-bold">{item.author}</p>
-                    <p className="text-sm ">{item.sub}</p>
+                    <p className="text-sm">{item.sub}</p>
                     <a
                       className="flex items-center py-2 space-x-1 text-sm "
                       href="/"
@@ -43,7 +42,7 @@ const SwipperQuote = ({ data }) => {
           );
         })}
       </Swiper>
-    </>
+   
   );
 };
 
